@@ -1,0 +1,46 @@
+.header{
+    position: static;
+    top: 0;
+    background-color: white;
+display: flex;
+justify-content: space-evenly;
+border-bottom: 0.1px solid lightgray;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+z-index: 999;
+}
+
+.header__left{
+    display: flex;
+}
+.header__search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color:#eef3f8;
+    border-radius: 5px;
+    height: 22px;
+    /* color: rgba(202, 199, 199, 0.664); */
+  
+}
+ 
+.header__search > input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.icon
+{
+    margin: 10px;
+}
+
+.header_right{
+    display: flex;
+
+}
+.header__left > .LinkedInIcon
+{
+    font-size: 40px;
+    color: #4287f5;
+}
